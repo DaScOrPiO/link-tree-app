@@ -6,9 +6,13 @@ const Main = () => {
         <div className='general_container_2'>
             <div className='links'>
                 <a href="https://twitter.com/oladunni_faith/" id='btn__zuri' target="_blank"
-                    rel="noopener noreferrer">Twitter Link</a>
+                    rel="noopener noreferrer">Twitter Link
+                    <span className='subtext'>Twitter profile link</span>
+                </a>
                 <a href="https://training.zuri.team/" id='btn__zuri' target="_blank"
-                    rel="noopener noreferrer">Zuri Team</a>
+                    rel="noopener noreferrer">Zuri Team
+                    <span className='subtext'>Meet the zuri team</span>
+                </a>
                 <a href="http://books.zuri.team/" id='books' target="_blank"
                     rel="noopener noreferrer">Zuri Books
                     <span className='subtext'>Get Web-design and coding books here</span>
