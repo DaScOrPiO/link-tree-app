@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,600;0,8..144,700;1,8..144,400;1,8..144,500;1,8..144,600&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Roboto Serif', serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+:root{
+    --dark-bg-color: #1018280d;
+    --dark-bg-color-1: #00000066;
+    --dark-color-general: #000;
+    --light-bg-color-1: #EAECF0;
+    --light-color-general: #fff;
+    --dark-color: #acacac;
+    --light-color: #dcdcdc;
+}
