@@ -186,6 +186,96 @@
 
 /* End of foot section style rule */
 
+/* Start of contact page style rule */
+.general_container_4{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-msg{
+    width: 100%;
+    margin-top: 5%;
+    padding: 5% 0;
+}
+
+.h_msg{
+    padding-bottom: 0.5%;
+    font-size: 2rem;
+}
+
+.p_msg{
+    padding-top: 0.5%;
+    font-size: 1.2rem;
+}
+
+.text-inputs{
+    display: flex;
+    width: 100%;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.border{
+    border: 1px solid var(--dark-color-general);
+    border-radius: .3rem;
+}
+
+.input-container input[type=text]{
+    padding: 2%;
+}
+
+.input-container input[type=text]:first-child {
+    margin-right: 10%;
+}
+
+.input-container input[type=email]{
+    padding: 1%;
+    width: 95%;
+}
+
+.mail{
+    margin-top: 2%;
+}
+
+.textarea{
+    margin-top: 2%;
+}
+
+.resize{
+    width: 95%;
+    resize: none;
+    height: 200px;
+}
+
+.check{
+    width: 100%;
+    margin-top: 2%;
+}
+
+.submit{
+    margin: 4% auto 25% auto;
+}
+
+.submit-btn{
+    background-color: var(--btn-color);
+    color: var(--light-color-general);
+    width: 95%;
+    padding: 1%;
+    border: none;
+    border-radius: .6rem;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background-color: var(--btn-hovered);
+}
+
 /* Device breakpoint rule */
 
 /* Breakpoint rule for Smaller devices */
@@ -206,7 +296,7 @@
         align-items: flex-start !important;
         margin: 6% 0 0;
         width: 100vw;
-        padding: 0 !important;
+        padding: 2%;
     }
 
     .links {

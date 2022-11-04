@@ -27,4 +27,6 @@ html{
     --light-color-general: #fff;
     --dark-color: #acacac;
     --light-color: #dcdcdc;
+    --btn-color: #1570EF;
+    --btn-hovered: #175CD3;
 }

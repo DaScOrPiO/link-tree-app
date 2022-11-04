@@ -1,14 +1,19 @@
 import React from 'react'
-import Header from './svg/components/header'
-import Main from './svg/components/main'
-import Footer from './svg/components/footer'
+import Homepage from './pages/homepage';
+import ContactPage from './pages/contact';
+import Footer from './components/footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const App = () => {
     return (
         <>
-            <Header />
-            <Main />
-            <Footer />
+            <BrowserRouter>
+                <Routes>
+                    <Route path='/' element={<Homepage />} />
+                    <Route path='/contact' element={<ContactPage />} />
+                </Routes>
+                <Footer />
+            </BrowserRouter>
         </>
     )
 }
