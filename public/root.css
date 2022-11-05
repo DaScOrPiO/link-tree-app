@@ -29,4 +29,6 @@ html{
     --light-color: #dcdcdc;
     --btn-color: #1570EF;
     --btn-hovered: #175CD3;
+    --btn-disabled: #B2DDFF;
+    --light-color-general-1: #F83F23;
 }

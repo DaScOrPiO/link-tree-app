@@ -32,7 +32,7 @@ const Main = () => {
                     rel="noopener noreferrer">Design Books
                     <span className='subtext'>Free design books</span>
                 </a>
-                <a href='/contact'>Contact Me</a>
+                <a href='/contact' id='contact'>Contact Me</a>
             </div>
             <div className='icons_main'>
                 <div className='slack'>
