@@ -260,6 +260,13 @@ input:focus, textarea:focus {
     border: 1px solid var(--btn-hovered);
 }
 
+input:focus:invalid {
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+    border: 1px solid var(--light-color-general-1);
+}
+
 .mail {
     margin-top: 2%;
 }
