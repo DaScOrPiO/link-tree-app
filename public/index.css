@@ -23,6 +23,8 @@
 .profile_img_container {
     border: 1px solid transparent;
     border-radius: 50%;
+    height: 100%;
+    width: 45%;
     position: relative;
     opacity: 1;
 }
@@ -39,6 +41,12 @@
 
 .profile_img_container:hover {
     cursor: pointer;
+}
+
+#profile_img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
 }
 
 .camera_icon {
@@ -311,6 +319,11 @@ input:focus:invalid {
 .disabled{
     background-color: var(--btn-disabled);
     cursor: no-drop;
+}
+
+.logo_2{
+    font-weight: 700;
+    color: var(--dark-color);
 }
 
 /* Device breakpoint rule */

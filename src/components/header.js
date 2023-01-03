@@ -5,7 +5,7 @@ const Header = () => {
         <div className='general_container_1'>
             <div className='profile_section_container'>
                 <div className='profile_img_container'>
-                    <img id='profile_img' src={require('../svg/profile-img.svg').default} alt='ProfileImage' />
+                    <img id='profile_img' src={require('../svg/my bitmoji.jpg')} alt='ProfileImage' />
                     <div className='camera_icon'>
                         <img src={require('../pseudo-state/profile-hover.svg').default} className='camera'  alt="" />
                     </div>
