@@ -80,31 +80,7 @@ const Main = () => {
           </span>
           <span className="subtext">View my github repo</span>
         </a>
-        <a
-          href="https://techzodiac.hashnode.dev/"
-          id="book__python"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="link"
-        >
-          Blog
-          <span>
-            <RWebShare
-              data={{
-                text: "Web Share - link",
-                url: "https://techzodiac.hashnode.dev/",
-                title: "Web-link Share",
-              }}
-            >
-              <img
-                className="share_btn-1"
-                src={require("../svg/share-btn.svg").default}
-                alt="SvgImage"
-              />
-            </RWebShare>
-          </span>
-          <span className="subtext">Checkout my blog posts</span>
-        </a>
+
         <a
           href="https://dascorpio.github.io/Portfolio-site/"
           id="pitch"
@@ -129,6 +105,32 @@ const Main = () => {
             </RWebShare>
           </span>
           <span className="subtext">View my portfolio website</span>
+        </a>
+
+        <a
+          href="https://techzodiac.hashnode.dev/"
+          id="book__python"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link"
+        >
+          Blog
+          <span>
+            <RWebShare
+              data={{
+                text: "Web Share - link",
+                url: "https://techzodiac.hashnode.dev/",
+                title: "Web-link Share",
+              }}
+            >
+              <img
+                className="share_btn-1"
+                src={require("../svg/share-btn.svg").default}
+                alt="SvgImage"
+              />
+            </RWebShare>
+          </span>
+          <span className="subtext">Checkout my blog posts</span>
         </a>
         <a
           href="https://books.zuri.team/design-rules"
