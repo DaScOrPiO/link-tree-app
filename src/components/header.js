@@ -20,10 +20,10 @@ const Header = () => {
           </div>
         </div>
         <div id="twitter">
-          <p>DaScOrPiO</p>
+          <p>Oladunni Faith</p>
         </div>
         <div id="slack">
-          <p>DaScOrPiO</p>
+          <p>Frontend Software Engineer</p>
         </div>
       </div>
       <a href="#share" className="share-icon">

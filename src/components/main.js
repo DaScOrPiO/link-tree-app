@@ -155,7 +155,7 @@ const Main = () => {
           </span>
           <span className="subtext">Free design books</span>
         </a>
-        <a href="/contact" id="contact">
+        <a href="/contact" id="contact" className="link">
           Contact Me
           <span className="subtext">Got something for me? Get in touch</span>
         </a>

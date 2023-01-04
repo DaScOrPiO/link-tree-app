@@ -1,5 +1,26 @@
 /* profile section style rule */
 
+#light{
+    background-color: var(--light-color-general);
+}
+
+#dark{
+    background-color: var(--dark-bg-color-1);
+    color: var(--light-color-general);
+}
+
+#dark .links .link{
+    color: var(--light-color-general);
+}
+
+.light{
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 .general_container_1 {
     width: 80%;
     height: 40vmin;
@@ -14,7 +35,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 30%;
     height: 100%;
     margin: auto;
     position: relative;
@@ -24,7 +44,7 @@
     border: 1px solid transparent;
     border-radius: 50%;
     height: 100%;
-    width: 45%;
+    width: 60%;
     position: relative;
     opacity: 1;
 }
@@ -90,7 +110,8 @@
 }
 
 #slack {
-    display: none;
+    display: flex;
+    height: auto;
 }
 
 #twitter {
@@ -103,7 +124,7 @@
 /* start of link section style rules */
 
 .general_container_2 {
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -114,7 +135,7 @@
 .links {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     justify-content: center;
     align-items: center;
 }
@@ -191,6 +212,12 @@
 
 .slack {
     width: 6vmin;
+}
+
+.dark{
+    position: fixed;
+    bottom: 20%;
+    right: 5%;
 }
 
 /* End of link section style rule */
@@ -543,6 +570,8 @@ input:focus:invalid {
 @media screen and (min-width: 1024px) {
     .general_container_1, .general_container_2, .general_container_3 {
         width: 80%;
+        height: auto;
+        margin: auto;
     }
 
     .general_container_1 {
@@ -552,7 +581,12 @@ input:focus:invalid {
     }
 
     .general_container_2 {
-        margin: auto;
+        width: 100%;
+        margin: 4% 0%;
+    }
+
+    .links{
+        width: 80%;
     }
 
     .icons_main {
