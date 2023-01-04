@@ -30,7 +30,7 @@ const Header = () => {
         <RWebShare
           data={{
             text: "Web Share - link",
-            url: "http://localhost:3000",
+            url: "https://mylinktree-1.netlify.app",
             title: "Web-link Share",
           }}
         >
@@ -44,7 +44,7 @@ const Header = () => {
         <RWebShare
           data={{
             text: "Web Share - link",
-            url: "http://localhost:3000",
+            url: "https://mylinktree-1.netlify.app",
             title: "Web-link Share",
           }}
         >

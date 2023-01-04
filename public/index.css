@@ -13,6 +13,13 @@
     color: var(--light-color-general);
 }
 
+#dark .logo_2{
+    color: var(--light-color);
+}
+#dark .text{
+    color: var(--light-color);
+}
+
 .light{
     width: 100vw;
     min-height: 100vh;
@@ -218,6 +225,7 @@
     position: fixed;
     bottom: 20%;
     right: 5%;
+    z-index: 5;
 }
 
 /* End of link section style rule */

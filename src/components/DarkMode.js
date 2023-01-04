@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { FiMoon } from "react-icons/fi";
 import { BsSunFill } from "react-icons/bs";
 
