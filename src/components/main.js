@@ -1,5 +1,5 @@
 import React from "react";
-// import { useNavigate } from 'react-router-dom';
+import { RWebShare } from "react-web-share";
 
 const Main = () => {
   return (
@@ -10,8 +10,24 @@ const Main = () => {
           id="btn__zuri"
           target="_blank"
           rel="noopener noreferrer"
+          className="link"
         >
           Twitter Link
+          <span>
+            <RWebShare
+              data={{
+                text: "Web Share - link",
+                url: "https://twitter.com/oladunni_faith/",
+                title: "Web-link Share",
+              }}
+            >
+              <img
+                className="share_btn-1"
+                src={require("../svg/share-btn.svg").default}
+                alt="SvgImage"
+              />
+            </RWebShare>
+          </span>
           <span className="subtext">Twitter profile link</span>
         </a>
         <a
@@ -19,8 +35,24 @@ const Main = () => {
           id="btn__zuri"
           target="_blank"
           rel="noopener noreferrer"
+          className="link"
         >
           LinkedIn
+          <span>
+            <RWebShare
+              data={{
+                text: "Web Share - link",
+                url: "https://www.linkedin.com/in/faith-oladunni-54ab8920b/",
+                title: "Web-link Share",
+              }}
+            >
+              <img
+                className="share_btn-1"
+                src={require("../svg/share-btn.svg").default}
+                alt="SvgImage"
+              />
+            </RWebShare>
+          </span>
           <span className="subtext">Catch up with me on LinkedIn</span>
         </a>
         <a
@@ -28,8 +60,24 @@ const Main = () => {
           id="books"
           target="_blank"
           rel="noopener noreferrer"
+          className="link"
         >
           Github
+          <span>
+            <RWebShare
+              data={{
+                text: "Web Share - link",
+                url: "https://github.com/DaScOrPiO",
+                title: "Web-link Share",
+              }}
+            >
+              <img
+                className="share_btn-1"
+                src={require("../svg/share-btn.svg").default}
+                alt="SvgImage"
+              />
+            </RWebShare>
+          </span>
           <span className="subtext">View my github repo</span>
         </a>
         <a
@@ -37,8 +85,24 @@ const Main = () => {
           id="book__python"
           target="_blank"
           rel="noopener noreferrer"
+          className="link"
         >
           Blog
+          <span>
+            <RWebShare
+              data={{
+                text: "Web Share - link",
+                url: "https://techzodiac.hashnode.dev/",
+                title: "Web-link Share",
+              }}
+            >
+              <img
+                className="share_btn-1"
+                src={require("../svg/share-btn.svg").default}
+                alt="SvgImage"
+              />
+            </RWebShare>
+          </span>
           <span className="subtext">Checkout my blog posts</span>
         </a>
         <a
@@ -46,8 +110,24 @@ const Main = () => {
           id="pitch"
           target="_blank"
           rel="noopener noreferrer"
+          className="link"
         >
           Website
+          <span>
+            <RWebShare
+              data={{
+                text: "Web Share - link",
+                url: "https://dascorpio.github.io/Portfolio-site/",
+                title: "Web-link Share",
+              }}
+            >
+              <img
+                className="share_btn-1"
+                src={require("../svg/share-btn.svg").default}
+                alt="SvgImage"
+              />
+            </RWebShare>
+          </span>
           <span className="subtext">View my portfolio website</span>
         </a>
         <a
@@ -55,12 +135,29 @@ const Main = () => {
           id="book__design"
           target="_blank"
           rel="noopener noreferrer"
+          className="link"
         >
           Design Books
+          <span>
+            <RWebShare
+              data={{
+                text: "Web Share - link",
+                url: "https://books.zuri.team/design-rules",
+                title: "Web-link Share",
+              }}
+            >
+              <img
+                className="share_btn-1"
+                src={require("../svg/share-btn.svg").default}
+                alt="SvgImage"
+              />
+            </RWebShare>
+          </span>
           <span className="subtext">Free design books</span>
         </a>
         <a href="/contact" id="contact">
           Contact Me
+          <span className="subtext">Got something for me? Get in touch</span>
         </a>
       </div>
       <div className="icons_main">

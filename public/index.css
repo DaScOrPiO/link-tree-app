@@ -43,7 +43,7 @@
     cursor: pointer;
 }
 
-#profile_img{
+#profile_img {
     border-radius: 50%;
     height: 100%;
     width: 100%;
@@ -134,8 +134,29 @@
     font-weight: 100;
 }
 
-.links a:hover {
+.links .link:hover {
     background-color: var(--light-bg-color-1);
+    transition: .6s ease;
+}
+
+.link:hover .share_btn-1{
+    display: flex;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link .share_btn-1 {
+    margin-left: 50%;
+    display: none;
+}
+
+.link .share_btn-1:hover {
+    transform: scale(1.25);
+    transition: .6s ease;
 }
 
 .subtext {
@@ -225,13 +246,13 @@
     width: 100%;
 }
 
-.render-msg{
+.render-msg {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.error-msg{
+.error-msg {
     color: var(--light-color-general-1);
     margin-top: 1%;
     padding: 0;
@@ -299,14 +320,14 @@ input:focus:invalid {
 }
 
 .submit-btn {
-    
+
     width: 95%;
     padding: 2%;
     border: none;
     border-radius: .6rem;
 }
 
-.enabled{
+.enabled {
     background-color: var(--btn-color);
     color: var(--light-color-general);
     cursor: pointer;
@@ -316,12 +337,12 @@ input:focus:invalid {
     background-color: var(--btn-hovered);
 }
 
-.disabled{
+.disabled {
     background-color: var(--btn-disabled);
     cursor: no-drop;
 }
 
-.logo_2{
+.logo_2 {
     font-weight: 700;
     color: var(--dark-color);
 }
@@ -352,6 +373,11 @@ input:focus:invalid {
     .links {
         width: 90% !important;
         padding-bottom: 5%;
+    }
+
+    .link .share_btn-1 {
+        margin-left: 50%;
+        display: flex;
     }
 
     .share-icon {
@@ -450,6 +476,11 @@ input:focus:invalid {
         width: 80%;
     }
 
+    .link .share_btn-1 {
+        margin-left: 50%;
+        display: flex;
+    }
+
     .general_container_4 {
         width: 80%;
         margin: 4% auto 4% auto;
@@ -470,7 +501,7 @@ input:focus:invalid {
     .text-inputs {
         width: 100%;
     }
-    
+
     .input-container {
         width: 100%;
         margin-bottom: 4%;
@@ -484,27 +515,27 @@ input:focus:invalid {
     .mail {
         margin-top: 2%;
     }
-    
+
     .textarea {
         margin-top: 2%;
     }
-    
+
     .resize {
         width: 95%;
         resize: none;
         height: 200px;
     }
-    
+
     .check {
         width: 100%;
         margin-top: 2%;
     }
-    
+
     .submit {
         margin: 4% auto 25% auto;
     }
 
-    .submit-btn{
+    .submit-btn {
         width: 95%;
     }
 }
@@ -539,29 +570,29 @@ input:focus:invalid {
         margin: auto;
         flex-direction: column;
     }
-    
+
     .hero-msg {
         width: 100%;
         margin-top: 5%;
         padding: 5% 0;
         flex-direction: column;
     }
-    
+
     .h_msg {
         padding-bottom: 0.5%;
         font-size: 2rem;
     }
-    
+
     .p_msg {
         padding-top: 0.5%;
         font-size: 1.2rem;
     }
-    
+
     .text-inputs {
         display: flex;
         width: 100%;
     }
-    
+
     .input-container {
         flex-direction: column;
         width: 100%;
@@ -570,11 +601,11 @@ input:focus:invalid {
     .input-container input[type=text] {
         padding: 2%;
     }
-    
+
     .input-container input[type=text]:first-child {
         margin-right: 10%;
     }
-    
+
     .input-container input[type=email] {
         padding: 1%;
         width: 95%;
@@ -583,26 +614,26 @@ input:focus:invalid {
     .mail {
         margin-top: 2%;
     }
-    
+
     .textarea {
         margin-top: 2%;
     }
-    
+
     .resize {
         width: 95%;
         resize: none;
         height: 200px;
     }
-    
+
     .check {
         width: 100%;
         margin-top: 2%;
     }
-    
+
     .submit {
         margin: 4% auto 25% auto;
     }
-    
+
     .submit-btn {
         width: 95%;
         padding: 2%;
