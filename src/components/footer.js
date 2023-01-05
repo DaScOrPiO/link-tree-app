@@ -16,9 +16,11 @@ const Footer = () => {
         <img src={require("../svg/html-5.png")} alt="SvgImage" />
         <img src={require("../svg/css-3.png")} alt="SvgImage" />
         <img src={require("../svg/bootstrap.png")} alt="SvgImage" />
+        <img src={require("../svg/sass.png")} alt="SvgImage" />
         <img src={require("../svg/java-script.png")} alt="SvgImage" />
         <img src={require("../svg/physics.png")} alt="SvgImage" />
         <img src={require("../svg/git.png")} alt="SvgImage" />
+        <img src={require("../svg/nodejs.png")} alt="SvgImage" />
       </div>
     </div>
   );

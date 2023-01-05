@@ -12,7 +12,7 @@ const Main = () => {
           rel="noopener noreferrer"
           className="link"
         >
-          Twitter Link
+          Twitter
           <span>
             <RWebShare
               data={{
@@ -132,6 +132,33 @@ const Main = () => {
           </span>
           <span className="subtext">Checkout my blog posts</span>
         </a>
+
+        <a
+          href="https://www.upwork.com/freelancers/~019d10f5a6363bb561"
+          id="book__python"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link"
+        >
+          Upwork
+          <span>
+            <RWebShare
+              data={{
+                text: "Web Share - link",
+                url: "https://www.upwork.com/freelancers/~019d10f5a6363bb561",
+                title: "Web-link Share",
+              }}
+            >
+              <img
+                className="share_btn-1"
+                src={require("../svg/share-btn.svg").default}
+                alt="SvgImage"
+              />
+            </RWebShare>
+          </span>
+          <span className="subtext">Find me on upwork</span>
+        </a>
+
         <a
           href="https://books.zuri.team/design-rules"
           id="book__design"
@@ -169,9 +196,9 @@ const Main = () => {
           </a>
         </div>
         <div className="github">
-          <a href="https://github.com/DaScOrPiO">
+          <a href="mailto:dunni82@yahoo.com">
             <img
-              src={require("../svg/Github-icon.svg").default}
+              src={require("../svg/email.png")}
               alt="LogoIcon"
             />
           </a>

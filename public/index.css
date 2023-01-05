@@ -180,6 +180,7 @@
 .link .share_btn-1 {
     margin-left: 50%;
     display: none;
+    z-index: 4;
 }
 
 .link .share_btn-1:hover {
