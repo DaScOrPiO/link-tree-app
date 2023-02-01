@@ -20,6 +20,10 @@
     color: var(--light-color);
 }
 
+.general{
+    transition: 1s ease;
+}
+
 .light{
     width: 100vw;
     min-height: 100vh;
@@ -145,6 +149,7 @@
     width: 80%;
     justify-content: center;
     align-items: center;
+    transition: .6s ease;
 }
 
 .links a {
@@ -164,7 +169,6 @@
 
 .links .link:hover {
     background-color: var(--light-bg-color-1);
-    transition: .6s ease;
 }
 
 .link:hover .share_btn-1{
