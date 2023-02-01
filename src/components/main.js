@@ -82,7 +82,7 @@ const Main = () => {
         </a>
 
         <a
-          href="https://dascorpio.github.io/Portfolio-site/"
+          href="https://oladunni.netlify.app/"
           id="pitch"
           target="_blank"
           rel="noopener noreferrer"
@@ -93,7 +93,7 @@ const Main = () => {
             <RWebShare
               data={{
                 text: "Web Share - link",
-                url: "https://dascorpio.github.io/Portfolio-site/",
+                url: "https://oladunni.netlify.app/",
                 title: "Web-link Share",
               }}
             >
