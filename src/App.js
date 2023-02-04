@@ -10,6 +10,7 @@ const App = () => {
     window.matchMedia("(prefers-color-scheme: dark)").matches;
 
   const [Dark, setDark] = useState(getcurrentTheme());
+  console.log(Dark)
   const changeMode = (e) => {
     setDark(e.matches);
   };
@@ -22,9 +23,9 @@ const App = () => {
   }, []);
 
   return (
-    <div id={Dark ? "dark" : "light"} className="light general">
+    <div id={Dark ? "dark" : "light"} className="general">
       <BrowserRouter>
-        <DarkMode handleClick={changeMode} dark={Dark} />
+        <DarkMode dark={Dark} />
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/contact" element={<ContactPage />} />
