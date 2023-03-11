@@ -8,7 +8,7 @@ const Header = () => {
         <div className="profile_img_container">
           <img
             id="profile_img"
-            src={require("../svg/my bitmoji.jpg")}
+            src={require("../svg/graph_040803.jpg")}
             alt="ProfileImage"
           />
           <div className="camera_icon">

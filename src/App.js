@@ -10,7 +10,6 @@ const App = () => {
     window.matchMedia("(prefers-color-scheme: dark)").matches;
 
   const [Dark, setDark] = useState(getcurrentTheme());
-  console.log(Dark)
   const changeMode = (e) => {
     setDark(e.matches);
   };
