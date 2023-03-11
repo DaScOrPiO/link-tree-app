@@ -1,27 +1,27 @@
 /* profile section style rule */
 
-#light {
+.light {
     background-color: var(--light-color-general);
 }
 
-#dark {
+.dark {
     background-color: var(--dark-bg-color-1);
     color: var(--light-color-general);
 }
 
-#dark .links .link {
+.dark .links .link {
     color: var(--light-color-general);
 }
 
-#dark .logo_2 {
+.dark .logo_2 {
     color: var(--light-color);
 }
 
-#dark .text {
+.dark .text {
     color: var(--light-color);
 }
 
-.general {
+#general {
     transition: 1s ease;
 }
 
@@ -218,7 +218,7 @@
     width: 6vmin;
 }
 
-.dark {
+.btn {
     position: fixed;
     bottom: 20%;
     right: 5%;

@@ -22,7 +22,7 @@ const App = () => {
   }, []);
 
   return (
-    <div id={Dark ? "dark" : "light"} className="general">
+    <div id="general" className={Dark ? "dark" : "light"}>
       <BrowserRouter>
         <DarkMode dark={Dark} />
         <Routes>
