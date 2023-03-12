@@ -1,5 +1,6 @@
 import React from "react";
 import { RWebShare } from "react-web-share";
+import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
@@ -184,10 +185,11 @@ const Main = () => {
           </span>
           <span className="subtext">Free design books</span>
         </a>
-        <a href="/contact" id="contact" className="link">
+
+        <Link to="/contact" id="contact" className="link">
           Contact Me
           <span className="subtext">Got something for me? Get in touch</span>
-        </a>
+        </Link>
       </div>
       <div className="icons_main">
         <div className="slack">
