@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="general_container_3">
+    <footer className="general_container_3">
       {/* <div className='logo_1'>
                 <img src={require('../svg/Zuri.Internship_Logo.svg').default} alt='SvgImage' />
             </div> */}
@@ -24,7 +24,7 @@ const Footer = () => {
           <img src={require("../svg/nodejs.png")} alt="SvgImage" />
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

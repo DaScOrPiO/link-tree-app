@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
-    <div className="general_container_2">
+    <main className="general_container_2">
       <div className="links">
         <a
           href="https://twitter.com/oladunni_faith/"
@@ -206,7 +206,7 @@ const Main = () => {
           </a>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

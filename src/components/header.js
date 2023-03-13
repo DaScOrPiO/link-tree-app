@@ -3,7 +3,7 @@ import { RWebShare } from "react-web-share";
 
 const Header = () => {
   return (
-    <div className="general_container_1">
+    <header className="general_container_1">
       <div className="profile_section_container">
         <div className="profile_img_container">
           <img
@@ -55,7 +55,7 @@ const Header = () => {
           />
         </RWebShare>
       </a>
-    </div>
+    </header>
   );
 };
 
