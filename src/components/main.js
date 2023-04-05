@@ -43,7 +43,7 @@ const Main = () => {
             <RWebShare
               data={{
                 text: "Web Share - link",
-                url: "https://www.linkedin.com/in/faith-oladunni-54ab8920b/",
+                url: "https://www.linkedin.com/in/oladunni/",
                 title: "Web-link Share",
               }}
             >
