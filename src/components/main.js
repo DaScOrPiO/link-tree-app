@@ -32,7 +32,7 @@ const Main = () => {
           <span className="subtext">Twitter profile link</span>
         </a>
         <a
-          href="https://www.linkedin.com/in/faith-oladunni-54ab8920b/"
+          href="https://www.linkedin.com/in/oladunni/"
           id="btn__zuri"
           target="_blank"
           rel="noopener noreferrer"
